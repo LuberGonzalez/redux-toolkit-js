@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Curso de Redux Toolkit + Typescript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El codigo de lo que seria un pequeño **CRUD**, hecho en Json Server
+con todos los metodos de manera sencilla, en donde se usaron,
+las ventas de Typescript y se verfico la documentación para poder trabajarlo.
 
-Currently, two official plugins are available:
+Esta muy bien el poder hacer este curso asi sea de manera sencilla, ya que funciona
+muy bien este CRUD, sencillito, pero con grandes aprendizajes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Excelente ahora con mas conocimiento con referente a Redux Toolkit para hacerlo mas sencillo.
 
-## Expanding the ESLint configuration
+[https://redux-toolkit.js.org/usage/usage-with-typescript](Redux Toolkit + React)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Comandos en CMD
 
-- Configure the top-level `parserOptions` property like this:
+Instalar Dependencias
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+**npm install**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Levantar el Servidor
+
+**npm run dev**
+
+Levantar Servidor Json Server
+
+**npm run api**
